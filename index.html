@@ -1,429 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Aptix Studio UX/UI Design Board</title>
+  <link rel="stylesheet" href="Aptix-UX-UI-Prototype.css">
 </head>
-
 <body>
-  <main class="page">
-    <header class="intro">
-      <div>
-        <h1 class="brand">aptix studio</h1>
-        <p class="dek">
-          UX/UI design board for Aptix Studio, a web development consulting site focused on
-          building digital experiences that help businesses grow.
-        </p>
-      </div>
+  <header class="top">
+    <div>
+      <div class="brand"><span class="logo">A</span>Aptix Studio</div>
+      <p>UX/UI design board for a modern web development agency site focused on services, portfolio credibility, client inquiries, and team applications.</p>
+    </div>
+    <nav class="nav">
+      <a class="pill" href="#system">System</a>
+      <a class="pill" href="#home">Home</a>
+      <a class="pill" href="#portfolio">Portfolio</a>
+      <a class="pill" href="#flows">Flows</a>
+    </nav>
+  </header>
 
-      <nav class="nav" aria-label="Board sections">
-        <a href="#system">System</a>
-        <a href="#process">Process</a>
-        <a href="#home">Home</a>
-        <a href="#content">Content</a>
-        <a href="#screens">Screens</a>
-      </nav>
-    </header>
-
+  <main>
     <section class="section" id="system">
-      <div class="section-head">
-        <div class="eyebrow">Foundation</div>
+      <div class="head">
         <div>
+          <p class="eyebrow">Foundation</p>
           <h2>Visual system</h2>
-          <p>
-            Aptix Studio uses a dark, technical interface with soft blue primary actions,
-            muted gray text, rounded cards, and clean spacing to feel modern, trustworthy,
-            and business-focused.
-          </p>
         </div>
+        <p>A neutral agency interface with blue primary accents, crisp cards, compact navigation, and clear conversion paths.</p>
       </div>
 
-      <div class="palette">
-        <div class="swatch" style="background:#11161d"><strong>Background</strong><span>#11161d</span></div>
-        <div class="swatch" style="background:#151b24"><strong>Card</strong><span>#151b24</span></div>
-        <div class="swatch" style="background:#252c37"><strong>Border</strong><span>#252c37</span></div>
-        <div class="swatch light" style="background:#e8eaee"><strong>Text</strong><span>#e8eaee</span></div>
-        <div class="swatch" style="background:#9aa3ad"><strong>Muted</strong><span>#9aa3ad</span></div>
-        <div class="swatch light" style="background:#7297ca"><strong>Primary</strong><span>#7297ca</span></div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="section-head">
-        <div class="eyebrow">Typography</div>
-        <div>
-          <h2>Type direction</h2>
-          <p>
-            Bold sans-serif headings create confidence and clarity, while smaller muted body text
-            keeps the service details readable and professional.
-          </p>
-        </div>
-      </div>
-
-      <div class="type-demo">
-        <div class="card type-card">
-          <h3>Building Websites That Build Your Business</h3>
-          <p>
-            The site voice is direct and outcome-focused, connecting creative web design with
-            business growth, visibility, and digital trust.
-          </p>
-          <a class="button" href="https://aptixstudio.vercel.app/" target="_blank" rel="noreferrer">
-            View Website
-          </a>
-        </div>
-
-        <div class="stack">
-          <article class="card">
-            <div class="num">Aa</div>
-            <h3>Display</h3>
-            <p>Large bold headings for homepage promises and section titles.</p>
-          </article>
-
-          <article class="card">
-            <div class="num">Ui</div>
-            <h3>Interface</h3>
-            <p>Small sans-serif labels for navigation, buttons, cards, and footer links.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="process">
-      <div class="section-head">
-        <div class="eyebrow">Creation path</div>
-        <div>
-          <h2>Website process</h2>
-          <p>
-            The site guides visitors from a strong homepage promise into services, trust building,
-            portfolio exploration, and a clear hiring action.
-          </p>
-        </div>
-      </div>
-
-      <div class="grid-4">
-        <article class="card">
-          <div class="num">1</div>
-          <h3>Define the offer</h3>
-          <p>Position Aptix Studio around web development, SEO, CMS/eCommerce, and UI/UX design.</p>
-        </article>
-
-        <article class="card">
-          <div class="num">2</div>
-          <h3>Shape the homepage</h3>
-          <p>Lead with a bold business-focused message and direct calls to action.</p>
-        </article>
-
-        <article class="card">
-          <div class="num">3</div>
-          <h3>Build trust</h3>
-          <p>Use service cards, “Why Choose Aptix Studio?” content, and proof-oriented sections.</p>
-        </article>
-
-        <article class="card">
-          <div class="num">4</div>
-          <h3>Drive action</h3>
-          <p>End with a clear “Start Your Project” path for potential clients.</p>
-        </article>
+      <div class="swatches">
+        <div class="swatch" style="--value:#fafafa"><strong>Background</strong><span>#fafafa</span></div>
+        <div class="swatch" style="--value:#202124;--text:#fff"><strong>Foreground</strong><span>#202124</span></div>
+        <div class="swatch" style="--value:#fff"><strong>Card</strong><span>#ffffff</span></div>
+        <div class="swatch" style="--value:#3367b7;--text:#fff"><strong>Primary</strong><span>blue</span></div>
+        <div class="swatch" style="--value:#1f9d9a;--text:#fff"><strong>Accent</strong><span>teal</span></div>
+        <div class="swatch" style="--value:#f1f2f4"><strong>Muted</strong><span>#f1f2f4</span></div>
+        <div class="swatch" style="--value:#73777f;--text:#fff"><strong>Muted Text</strong><span>#73777f</span></div>
+        <div class="swatch" style="--value:#dedfe3"><strong>Border</strong><span>#dedfe3</span></div>
       </div>
     </section>
 
     <section class="section" id="home">
-      <div class="section-head">
-        <div class="eyebrow">Home page</div>
+      <div class="head">
         <div>
-          <h2>Hero concept</h2>
-          <p>
-            The homepage centers the business value of the website: digital experiences that
-            drive results from concept to deployment.
-          </p>
+          <p class="eyebrow">Home page</p>
+          <h2>Hero direction</h2>
         </div>
+        <p>The first screen should communicate the agency promise quickly and provide one path to hire and one path to proof.</p>
       </div>
 
-      <div class="hero-concept">
-        <div class="hero-copy">
-          <div class="eyebrow">Web development consulting</div>
-          <h3>Building Websites That Build Your Business</h3>
-          <p>
-            We craft exceptional digital experiences that drive results. From concept to deployment,
-            Aptix Studio is positioned as a trusted web development partner.
-          </p>
+      <div class="mini-nav">
+        <strong><span class="logo small-logo">A</span>Aptix Studio</strong>
+        <span class="mini-links">
+          <span>Home</span><span>Services</span><span>About</span><span>Gallery</span><span>Join</span>
+        </span>
+        <a class="button primary" href="#">Hire Us</a>
+      </div>
 
-          <div class="hero-actions">
-            <a class="button" href="#contact-flow">Get Started</a>
-            <a class="button" href="#content">View Our Work</a>
-          </div>
-        </div>
-
-        <div class="studio-visual" aria-label="Website mockup visual">
-          <div class="laptop">
-            <div class="browser-bar">
-              <i class="dot"></i>
-              <i class="dot"></i>
-              <i class="dot"></i>
-            </div>
-
-            <div class="mock-grid">
-              <div class="mock-panel dark">
-                <div class="line" style="width:70%"></div>
-                <div class="line" style="width:48%"></div>
-                <div class="tile-row">
-                  <i class="mini-tile"></i>
-                  <i class="mini-tile"></i>
-                  <i class="mini-tile"></i>
-                </div>
-              </div>
-
-              <div class="mock-panel">
-                <div class="line" style="width:86%"></div>
-                <div class="line" style="width:62%"></div>
-                <div class="line" style="width:74%"></div>
-              </div>
-            </div>
-          </div>
+      <div class="hero">
+        <h1>Building Websites That <span>Build Your Business</span></h1>
+        <p>We craft exceptional digital experiences that drive results. From concept to deployment, Aptix Studio is a trusted partner in web development.</p>
+        <div class="actions">
+          <a class="button primary" href="#">Get Started</a>
+          <a class="button secondary" href="#portfolio">View Our Work</a>
         </div>
       </div>
     </section>
 
-    <section class="section" id="content">
-      <div class="section-head">
-        <div class="eyebrow">Services</div>
+    <section class="section">
+      <div class="head">
         <div>
-          <h2>Offer cards</h2>
-          <p>
-            Service cards make the studio’s offer quick to understand and connect each service
-            to a business outcome.
-          </p>
+          <p class="eyebrow">Services</p>
+          <h2>What we do best</h2>
         </div>
+        <p>Service cards use icons, concise descriptions, and strong hierarchy so visitors can understand the offer at a glance.</p>
       </div>
 
-      <div class="grid-3">
-        <article class="card service-card">
-          <div class="service-icon">SEO</div>
-          <h3>SEO Marketing</h3>
-          <p>
-            Boost online visibility and drive organic traffic with data-driven SEO strategies.
-          </p>
-        </article>
+      <div class="cards">
+        <article class="card"><div class="icon">SEO</div><h3>SEO Marketing</h3><p>Data-driven optimization to improve visibility, ranking, and organic traffic.</p></article>
+        <article class="card"><div class="icon">CMS</div><h3>CMS Development</h3><p>Custom content systems and admin workflows that make websites easier to manage.</p></article>
+        <article class="card"><div class="icon">SHOP</div><h3>eCommerce Solutions</h3><p>Online stores built for conversion, checkout confidence, and scalable operations.</p></article>
+        <article class="card"><div class="icon">UX</div><h3>UI/UX Design</h3><p>User-centered interfaces, prototypes, and design systems for better experiences.</p></article>
+      </div>
+    </section>
 
-        <article class="card service-card">
-          <div class="service-icon">CMS</div>
-          <h3>CMS/eCommerce Development</h3>
-          <p>
-            Custom-built content systems and eCommerce platforms tailored to business needs.
-          </p>
-        </article>
+    <section class="section" id="portfolio">
+      <div class="head">
+        <div>
+          <p class="eyebrow">Gallery</p>
+          <h2>Portfolio cards</h2>
+        </div>
+        <p>Project cards build trust by showing a visual preview, category, description, and technology tags.</p>
+      </div>
 
-        <article class="card service-card">
-          <div class="service-icon">UX</div>
-          <h3>UI/UX Design</h3>
-          <p>
-            Beautiful, intuitive interfaces that engage users and elevate the brand experience.
-          </p>
+      <div class="projects">
+        <article class="project">
+          <div class="project-art" style="--a:#3367b7;--b:#1f9d9a"></div>
+          <div class="body"><span class="badge">SaaS</span><h3>TechFlow SaaS Platform</h3><p>A project management platform with real-time collaboration features.</p><div class="tags"><span>React</span><span>Node.js</span><span>PostgreSQL</span></div></div>
+        </article>
+        <article class="project">
+          <div class="project-art" style="--a:#111827;--b:#c084fc"></div>
+          <div class="body"><span class="badge">eCommerce</span><h3>Luxe Fashion eCommerce</h3><p>A high-end retail site with a custom shopping experience.</p><div class="tags"><span>Shopify</span><span>React</span><span>AR</span></div></div>
+        </article>
+        <article class="project">
+          <div class="project-art" style="--a:#16a34a;--b:#facc15"></div>
+          <div class="body"><span class="badge">Marketing</span><h3>GreenLeaf Organic Foods</h3><p>An SEO-focused marketing site for a food delivery service.</p><div class="tags"><span>Next.js</span><span>SEO</span><span>CMS</span></div></div>
+        </article>
+        <article class="project">
+          <div class="project-art" style="--a:#0f172a;--b:#38bdf8"></div>
+          <div class="body"><span class="badge">Web App</span><h3>FinanceHub Dashboard</h3><p>A financial analytics dashboard with live data visualization.</p><div class="tags"><span>React</span><span>D3.js</span><span>API</span></div></div>
         </article>
       </div>
     </section>
 
     <section class="section">
-      <div class="section-head">
-        <div class="eyebrow">Trust</div>
+      <div class="head">
         <div>
-          <h2>Why choose Aptix Studio?</h2>
-          <p>
-            The about section supports the service offer by explaining how technical expertise
-            and creative vision work together.
-          </p>
+          <p class="eyebrow">Components</p>
+          <h2>Reusable patterns</h2>
         </div>
+        <p>The site relies on repeated cards, form fields, buttons, badges, and section headers to keep pages cohesive.</p>
       </div>
 
-      <div class="grid-3">
-        <article class="card">
-          <div class="num">01</div>
-          <h3>Expert team</h3>
-          <p>Developers and designers collaborate to create reliable, polished web solutions.</p>
-        </article>
-
-        <article class="card">
-          <div class="num">02</div>
-          <h3>Agile method</h3>
-          <p>The process supports iteration, feedback, and forward motion from idea to launch.</p>
-        </article>
-
-        <article class="card">
-          <div class="num">03</div>
-          <h3>Ongoing support</h3>
-          <p>The site promises support and maintenance beyond the first version of the build.</p>
-        </article>
+      <div class="components">
+        <article class="component"><h3>Primary CTA</h3><p>Use for hiring, project starts, and application submission.</p><a class="button primary" href="#">Hire Us</a></article>
+        <article class="component"><h3>Secondary CTA</h3><p>Use for lower-pressure exploration like viewing work or returning to services.</p><a class="button secondary" href="#">View Our Work</a></article>
+        <article class="component"><h3>Inquiry Form</h3><div class="form"><div class="field"></div><div class="field"></div><div class="field large"></div></div></article>
+        <article class="component"><h3>Success State</h3><p>Confirm submitted messages and applications with a clear positive state.</p><div class="icon">OK</div></article>
       </div>
     </section>
 
-    <section class="section">
-      <div class="section-head">
-        <div class="eyebrow">Gallery</div>
+    <section class="section" id="flows">
+      <div class="head">
         <div>
-          <h2>Project cards</h2>
-          <p>
-            Portfolio-style cards can show project examples, site categories, or preview layouts
-            while staying aligned with the dark Aptix Studio interface.
-          </p>
-        </div>
-      </div>
-
-      <div class="grid-4">
-        <article class="card project-card">
-          <div class="project-art">
-            <div class="project-shot"><span></span><div></div><span></span></div>
-          </div>
-          <div class="project-body">
-            <h3>Business site</h3>
-            <p>Homepage and service flow for a growth-focused brand.</p>
-            <div class="tag-row"><span class="tag">Web</span><span class="tag">UX</span></div>
-          </div>
-        </article>
-
-        <article class="card project-card">
-          <div class="project-art">
-            <div class="project-shot"><span></span><div></div><span></span></div>
-          </div>
-          <div class="project-body">
-            <h3>Commerce build</h3>
-            <p>CMS and eCommerce structure for selling online.</p>
-            <div class="tag-row"><span class="tag">CMS</span><span class="tag">Shop</span></div>
-          </div>
-        </article>
-
-        <article class="card project-card">
-          <div class="project-art">
-            <div class="project-shot"><span></span><div></div><span></span></div>
-          </div>
-          <div class="project-body">
-            <h3>SEO landing</h3>
-            <p>Conversion page supported by search-focused content.</p>
-            <div class="tag-row"><span class="tag">SEO</span><span class="tag">Lead</span></div>
-          </div>
-        </article>
-
-        <article class="card project-card">
-          <div class="project-art">
-            <div class="project-shot"><span></span><div></div><span></span></div>
-          </div>
-          <div class="project-body">
-            <h3>Interface refresh</h3>
-            <p>UI improvements for a clearer, more modern experience.</p>
-            <div class="tag-row"><span class="tag">UI</span><span class="tag">Brand</span></div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="contact-flow">
-      <div class="section-head">
-        <div class="eyebrow">Conversion</div>
-        <div>
-          <h2>Hiring flow</h2>
-          <p>
-            The site ends with a direct call to action: “Ready to Transform Your Digital Presence?”
-            followed by a clear Start Your Project path.
-          </p>
-        </div>
-      </div>
-
-      <div class="flow">
-        <article class="card">
-          <h3>Primary call to action</h3>
-          <p>
-            The blue CTA section separates the final action from the rest of the page and gives
-            visitors one clear next step.
-          </p>
-
-          <div class="form-preview" aria-label="CTA preview">
-            <div class="field"></div>
-            <div class="field"></div>
-            <button type="button">Start Your Project</button>
-          </div>
-        </article>
-
-        <article class="card">
-          <h3>Visitor path</h3>
-          <div class="steps">
-            <div class="step">
-              <b>1</b>
-              <p><strong>Understand the offer</strong><br />Visitors scan services and business value.</p>
-            </div>
-
-            <div class="step">
-              <b>2</b>
-              <p><strong>Build confidence</strong><br />Trust sections explain expertise and process.</p>
-            </div>
-
-            <div class="step">
-              <b>3</b>
-              <p><strong>Start the project</strong><br />The final CTA moves visitors toward hiring Aptix Studio.</p>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="screens">
-      <div class="section-head">
-        <div class="eyebrow">Responsive structure</div>
-        <div>
+          <p class="eyebrow">Responsive structure</p>
           <h2>Screen wireframes</h2>
-          <p>
-            Desktop supports a broad service story, while mobile keeps navigation, services,
-            and calls to action stacked into a focused path.
-          </p>
         </div>
+        <p>Desktop pages support rich scanning and side-by-side content. Mobile stacks navigation, cards, and forms into a single path.</p>
       </div>
 
-      <div class="screen-wrap">
-        <div class="screen desktop-screen">
-          <div class="topbar">APTIX STUDIO DESIGN BOARD</div>
-          <div class="screen-nav">
-            Aptix Studio
-            <span><i>Home</i><i>Services</i><i>Gallery</i><i>Hire Us</i></span>
-          </div>
+      <div class="wire-grid">
+        <article class="wire">
+          <div class="wire-bar">Desktop</div>
+          <div class="wire-nav">Aptix Studio | Home Services About Gallery Join | Hire Us</div>
+          <div class="wire-hero"><strong>Building Websites That Build Your Business</strong></div>
+          <div class="wire-section"><div class="wire-boxes"><div class="box"></div><div class="box"></div><div class="box"></div></div></div>
+        </article>
 
-          <div class="screen-hero">
-            <div class="screen-copy">
-              <h3>Building Websites That Build Your Business</h3>
-              <p class="lead">Hero, services, trust, gallery, and hiring flow.</p>
-            </div>
-            <div class="screen-art"></div>
-          </div>
-
-          <div class="screen-cards">
-            <div class="screen-card"></div>
-            <div class="screen-card"></div>
-            <div class="screen-card"></div>
-          </div>
-        </div>
-
-        <div class="screen mobile-screen">
-          <div class="topbar">APTIX</div>
-          <div class="screen-nav">
-            Aptix
-            <span><i>Menu</i></span>
-          </div>
-
-          <div class="screen-hero">
-            <div class="screen-art" style="height:150px"></div>
-            <div class="screen-copy">
-              <h3>Building Websites That Build Your Business</h3>
-              <p class="lead">A focused mobile path from service scan to project start.</p>
-            </div>
-          </div>
-
-          <div class="screen-cards">
-            <div class="screen-card"></div>
-            <div class="screen-card"></div>
-            <div class="screen-card"></div>
-          </div>
-        </div>
+        <article class="wire mobile">
+          <div class="wire-bar">Mobile</div>
+          <div class="wire-nav">Aptix Studio | Menu</div>
+          <div class="wire-hero"><strong>Building Websites That Build Your Business</strong></div>
+          <div class="wire-section"><div class="wire-boxes"><div class="box"></div><div class="box"></div><div class="box"></div></div></div>
+        </article>
       </div>
     </section>
   </main>
+
+  <footer class="foot">
+    Aptix Studio UX/UI design board. Pair this prototype with the markdown files for the complete design package.
+  </footer>
 </body>
 </html>
