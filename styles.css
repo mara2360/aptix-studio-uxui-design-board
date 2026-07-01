@@ -243,6 +243,20 @@ h2 {
   line-height: 1.65;
 }
 
+.website-screenshot {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+
+.website-screenshot img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .project-art {
   height: 150px;
   background: linear-gradient(135deg, var(--a), var(--b));
