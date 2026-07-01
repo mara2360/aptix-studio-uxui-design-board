@@ -342,7 +342,7 @@ h2 {
 .wire-grid {
   display: grid;
   grid-template-columns: 1.4fr 0.9fr;
-  gap: 18px;
+  gap: 200px;
 }
 
 .wire {
