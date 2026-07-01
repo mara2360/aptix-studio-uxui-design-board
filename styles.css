@@ -1,9 +1,17 @@
     :root {
-      --canvas:#f6f1e8; --paper:#fffaf0; --ink:#101820; --muted:#65717b;
-      --line:#ded6c9; --blue:#124e96; --teal:#0f6f72; --coral:#e56d5c;
-      --mint:#d7ebe2; --butter:#f6d978; --cloud:#edf3f7; --radius:8px;
-      --shadow:0 18px 44px rgba(16,24,32,.12);
-    }
+  --canvas: #11161d;
+  --paper: #11161d;
+  --ink: #e8eaee;
+  --muted: #9aa3ad;
+  --line: #252c37;
+  --card: #11161d;
+  --primary: #7297ca;
+  --primary-soft: rgba(114, 151, 202, 0.1);
+  --secondary: #252c37;
+  --white: #ffffff;
+  --radius: 12px;
+  --shadow: 0 18px 44px rgba(0, 0, 0, 0.24);
+}
 
     * { box-sizing:border-box; }
     html { scroll-behavior:smooth; }
